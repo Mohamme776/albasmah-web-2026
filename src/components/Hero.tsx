@@ -42,7 +42,7 @@ export const Hero: React.FC<HeroProps> = ({ onExploreFinishing, onExploreService
 
             {/* Subtitle - Short & Crisp */}
             <p className="text-base sm:text-lg text-stone-300 font-normal leading-relaxed max-w-xl">
-              تخصص دقيق في <strong className="text-amber-300 font-bold">التشطيب والترميم الحديث</strong>، مع خدمات البناء والملاحق والساندوتش بانل والمظلات والهناجر بكافة أحياء جدة.
+              تخصص دقيق في <strong className="text-amber-300 font-bold">التشطيب والترميم الحديث</strong>، مع خدمات بناء الفلل والملاحق وساندوتش بانل والمظلات بكافة أحياء جدة.
             </p>
 
             {/* Concise Feature Badges */}
