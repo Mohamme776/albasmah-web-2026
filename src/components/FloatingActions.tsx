@@ -16,7 +16,7 @@ export const FloatingActions: React.FC = () => {
           className="flex-1 flex items-center justify-center gap-2 bg-gradient-to-r from-amber-500 to-amber-600 active:from-amber-600 active:to-amber-700 text-stone-950 font-black py-3 px-3 rounded-xl text-xs shadow-md"
         >
           <Phone className="w-4 h-4 text-stone-950 stroke-[2.5]" />
-          <span>اتصال: {BUSINESS_INFO.phone}</span>
+          <span>اتصال: <bdi dir="ltr" className="inline-block font-sans font-black">{BUSINESS_INFO.phone}</bdi></span>
         </a>
 
         <a

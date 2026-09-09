@@ -128,7 +128,9 @@ export const Footer: React.FC<FooterProps> = ({ onNavigate }) => {
                 <Phone className="w-4 h-4 text-amber-400 shrink-0" />
                 <div>
                   <div className="text-[10px] text-stone-400">اتصال هاتفي مباشر</div>
-                  <div dir="ltr" className="font-mono text-amber-300">{BUSINESS_INFO.phoneFormatted}</div>
+                  <div className="text-amber-300 font-bold">
+                    <bdi dir="ltr" className="inline-block font-sans">{BUSINESS_INFO.phoneFormatted}</bdi>
+                  </div>
                 </div>
               </a>
 

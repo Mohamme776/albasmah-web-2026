@@ -161,7 +161,7 @@ export const PortfolioGallery: React.FC = () => {
                   className="flex-1 flex items-center justify-center gap-2 bg-amber-500 hover:bg-amber-400 text-stone-950 font-bold py-3 px-4 rounded-xl text-sm transition-colors"
                 >
                   <Phone className="w-4 h-4" />
-                  <span>معاينة مشروعك بجدة ({BUSINESS_INFO.phoneFormatted})</span>
+                  <span>معاينة مشروعك بجدة (<bdi dir="ltr" className="inline-block font-sans font-bold">{BUSINESS_INFO.phoneFormatted}</bdi>)</span>
                 </a>
                 <a
                   href={`${BUSINESS_INFO.whatsappUrl}&text=${encodeURIComponent(`السلام عليكم مقاول أبو وافي، أريد عمل مشروع مشابه لـ (${activeModalItem.title}).`)}`}

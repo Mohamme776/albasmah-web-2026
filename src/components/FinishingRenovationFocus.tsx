@@ -227,7 +227,7 @@ export const FinishingRenovationFocus: React.FC = () => {
             className="flex items-center gap-2 bg-amber-500 hover:bg-amber-400 text-stone-950 font-bold px-4 py-2.5 rounded-xl text-xs shrink-0 transition-colors"
           >
             <Phone className="w-3.5 h-3.5" />
-            <span>اتصال: {BUSINESS_INFO.phoneFormatted}</span>
+            <span>اتصال: <bdi dir="ltr" className="inline-block font-sans font-bold">{BUSINESS_INFO.phoneFormatted}</bdi></span>
           </a>
         </div>
 

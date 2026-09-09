@@ -72,7 +72,7 @@ export const WorkProcess: React.FC = () => {
             className="inline-flex items-center gap-2 text-xs sm:text-sm font-bold text-amber-400 hover:text-amber-300"
           >
             <Phone className="w-4 h-4" />
-            <span>احجز موعد معاينة مجانية لموقعك الآن: {BUSINESS_INFO.phoneFormatted}</span>
+            <span>احجز موعد معاينة مجانية لموقعك الآن: <bdi dir="ltr" className="inline-block font-sans font-bold">{BUSINESS_INFO.phoneFormatted}</bdi></span>
           </a>
         </div>
 

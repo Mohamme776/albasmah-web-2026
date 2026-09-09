@@ -23,7 +23,7 @@ export const SERVICES_LIST: ServiceItem[] = [
     badge: 'تخصصنا الأبرز',
     isPrimaryFocus: true,
     iconName: 'Paintbrush',
-    image: 'https://images.unsplash.com/photo-1600585154340-be6161a56a0c?q=80&w=1000&auto=format&fit=crop',
+    image: '/assets/fluted_wood_tv_wall_1788967385789.jpg',
     features: [
       'معالجة التشققات والرطوبة',
       'دهانات وديكورات بديل رخام وخشب',
@@ -37,7 +37,7 @@ export const SERVICES_LIST: ServiceItem[] = [
     shortDesc: 'بناء فلل عصرية عظم وتسليم مفتاح وفق كود البناء السعودي.',
     fullDesc: 'تنفيذ فلل مودرن بمختلف المساحات مع إشراف هندسي يومي.',
     iconName: 'Home',
-    image: 'https://images.unsplash.com/photo-1613977257363-707ba9348227?q=80&w=1000&auto=format&fit=crop',
+    image: '/assets/villa_facade_scaffolding_1788967565703.jpg',
     features: [
       'عظم بالمواد أو بدون مواد',
       'تسليم مفتاح متكامل',
@@ -50,7 +50,7 @@ export const SERVICES_LIST: ServiceItem[] = [
     shortDesc: 'تشييد عمائر سكنية واستثمارية بمتانة عالية وتنفيذ هندسي دقيق.',
     fullDesc: 'إنشاء عمائر وأدوار متكررة مع دقة التسليح والصب والواجهات الحديثة.',
     iconName: 'Building2',
-    image: 'https://images.unsplash.com/photo-1541888946425-d0fbb186156a?q=80&w=1000&auto=format&fit=crop',
+    image: '/assets/villa_concrete_bone_1788967403056.jpg',
     features: [
       'هيكل خرساني معتمد',
       'التزام صارم بالمخططات',
@@ -63,7 +63,7 @@ export const SERVICES_LIST: ServiceItem[] = [
     shortDesc: 'ملاحق أسطح ومجالس ضيافة راقية بعوازل ممتازة.',
     fullDesc: 'تشييد ملاحق ومجالس خارجية بأحدث الديكورات وعوازل تامة.',
     iconName: 'Layers',
-    image: 'https://images.unsplash.com/photo-1513694203232-719a280e022f?q=80&w=1000&auto=format&fit=crop',
+    image: '/assets/terrace_annex_majlis_1788967550330.jpg',
     features: [
       'ملاحق أسطح خفيفة الأحمال',
       'مجالس مودرن وزجاجية',
@@ -76,7 +76,7 @@ export const SERVICES_LIST: ServiceItem[] = [
     shortDesc: 'غرف أسطح ومستودعات عازلة 100% للحرارة والصوت.',
     fullDesc: 'ألواح صاج مجلفن معزولة بالبولي يوريثان المقاوم لحرارة ورطوبة جدة.',
     iconName: 'Box',
-    image: 'https://images.unsplash.com/photo-1581094794329-c8112a89af12?q=80&w=1000&auto=format&fit=crop',
+    image: '/assets/sandwich_panel_room_1788967613170.jpg',
     features: [
       'عزل حراري وصوتي 100%',
       'خفيف الوزن وتركيب سريع',
@@ -89,7 +89,7 @@ export const SERVICES_LIST: ServiceItem[] = [
     shortDesc: 'هناجر مستودعات، مظلات سيارات، وسواتر خصوصية متينة.',
     fullDesc: 'تصميم وتنفيذ أعمال الحدادة والمظلات والهناجر بمواصفات معتمدة.',
     iconName: 'Warehouse',
-    image: 'https://images.unsplash.com/photo-1504307651254-35680f356dfd?q=80&w=1000&auto=format&fit=crop',
+    image: '/assets/car_shades_canopy_1788967490066.jpg',
     features: [
       'هناجر مطابقة لاشتراطات الدفاع المدني',
       'مظلات سيارات قماش وخشب',
@@ -106,8 +106,8 @@ export const BEFORE_AFTER_CASES: BeforeAfterItem[] = [
     category: 'ترميم فلل',
     description: 'تحويل فيلا قديمة إلى طراز مودرن مع تجديد الواجهات والسباكة والدهانات.',
     stats: 'إنجاز قياسي خلال 45 يوماً',
-    beforeImage: 'https://images.unsplash.com/photo-1590381105924-c72589b9ef3f?q=80&w=1000&auto=format&fit=crop',
-    afterImage: 'https://images.unsplash.com/photo-1600585154526-990dced4db0d?q=80&w=1000&auto=format&fit=crop'
+    beforeImage: '/assets/brick_renovation_site_1788967514641.jpg',
+    afterImage: '/assets/luxury_living_interior_1788967366578.jpg'
   },
   {
     id: 'case-2',
@@ -116,8 +116,8 @@ export const BEFORE_AFTER_CASES: BeforeAfterItem[] = [
     category: 'تشطيب داخلي',
     description: 'جبس بورد مضيء، بديل خشب ورخام، وأرضيات بورسلان ليزري.',
     stats: 'تشطيب VIP فاخر',
-    beforeImage: 'https://images.unsplash.com/photo-1503387762-592deb58ef4e?q=80&w=1000&auto=format&fit=crop',
-    afterImage: 'https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?q=80&w=1000&auto=format&fit=crop'
+    beforeImage: '/assets/brick_renovation_site_1788967514641.jpg',
+    afterImage: '/assets/luxury_villa_pool_hall_1788967630001.jpg'
   },
   {
     id: 'case-3',
@@ -126,91 +126,101 @@ export const BEFORE_AFTER_CASES: BeforeAfterItem[] = [
     category: 'ترميم واجهات',
     description: 'حقن الشروخ بإيبوكسي معتمد، عزل مائي، ودهان بروفايل مقاوم للرطوبة.',
     stats: 'ضمان رسمي معتمد',
-    beforeImage: 'https://images.unsplash.com/photo-1589939705384-5185137a7f0f?q=80&w=1000&auto=format&fit=crop',
-    afterImage: 'https://images.unsplash.com/photo-1512917774080-9991f1c4c750?q=80&w=1000&auto=format&fit=crop'
+    beforeImage: '/assets/villa_facade_scaffolding_1788967565703.jpg',
+    afterImage: '/assets/hero_finishing_1788967342617.jpg'
   }
 ];
 
 export const PORTFOLIO_PROJECTS: PortfolioItem[] = [
   {
     id: 'proj-1',
-    title: 'تشطيب داخلي لفيلا دوبلكس',
+    title: 'تشطيب صالة فاخرة وديكور رخام وخشب',
     category: 'renovation',
     categoryLabel: 'تشطيب وترميم',
     location: 'جدة - حي الشاطئ',
-    image: 'https://images.unsplash.com/photo-1600210492486-724fe5c67fb0?q=80&w=900&auto=format&fit=crop',
-    description: 'تشطيب صالات مفتوحة، جبس بورد، وإضاءات ليد مخفية.',
+    image: '/assets/fluted_wood_tv_wall_1788967385789.jpg',
+    description: 'تشطيب صالات مفتوحة، بديل خشب ورخام، وإضاءات ليد مخفية.',
     highlights: ['دهانات جوتن ناعمة', 'بورسلان ليزري', 'إنارة مخفية']
   },
   {
     id: 'proj-2',
-    title: 'تجديد وترميم واجهة عمارة',
+    title: 'تشطيب أسقف وجبس بورد مودرن',
     category: 'renovation',
     categoryLabel: 'تشطيب وترميم',
     location: 'جدة - حي السلامة',
-    image: 'https://images.unsplash.com/photo-1545324418-cc1a3fa10c00?q=80&w=900&auto=format&fit=crop',
-    description: 'علاج التصدعات وعمل دهان بروفايل حديث مقاوم للرطوبة.',
-    highlights: ['معالجة الشروخ', 'بروفايل مقاوم للرطوبة', 'إنارة ليلية']
+    image: '/assets/gypsum_ceiling_lights_1788967472056.jpg',
+    description: 'تنفيذ أسقف جبسية هندسية مع سبوت لايت وإنارة ليد مدمجة.',
+    highlights: ['جبس بورد معالج', 'إنارة ليد مدمجة', 'دهانات فاخرة']
   },
   {
     id: 'proj-3',
-    title: 'ملحق سطح وجلسة زجاجية',
-    category: 'annex',
-    categoryLabel: 'بناء ملاحق',
-    location: 'جدة - حي الحمدانية',
-    image: 'https://images.unsplash.com/photo-1600566753190-17f0baa2a6c3?q=80&w=900&auto=format&fit=crop',
-    description: 'مجلس ضيافة مودرن بواجهات زجاجية واسعة وعوازل كاملة.',
-    highlights: ['هيكل خفيف', 'زجاج دبل جلاس', 'عوازل ممتازة']
+    title: 'تشطيب ممرات وفلل نيوكلاسيك',
+    category: 'renovation',
+    categoryLabel: 'تشطيب وترميم',
+    location: 'جدة - حي الزهراء',
+    image: '/assets/moulding_wall_interior_1788967532623.jpg',
+    description: 'إطارات فوم جدارية (بانوهات) وبورسلان ليزري براق.',
+    highlights: ['بانوهات جدارية دقيقة', 'أبواب سحاب زجاجية', 'دهانات ناعمة']
   },
   {
     id: 'proj-4',
-    title: 'بناء فيلا مودرن عظم بالمواد',
+    title: 'بناء فيلا وعمائر سكنية عظم',
     category: 'construction',
     categoryLabel: 'بناء فلل وعمائر',
     location: 'جدة - أبحر الشمالية',
-    image: 'https://images.unsplash.com/photo-1613490493576-7fde63acd811?q=80&w=900&auto=format&fit=crop',
+    image: '/assets/villa_concrete_bone_1788967403056.jpg',
     description: 'تنفيذ القواعد والأعمدة والأسقف وفق كود البناء السعودي.',
     highlights: ['حديد سابك أصلي', 'خرسانة مقاومة', 'إشراف هندسي']
   },
   {
     id: 'proj-5',
-    title: 'غرف ساندوتش بانل معزولة',
-    category: 'sandwich',
-    categoryLabel: 'ساندوتش بانل',
-    location: 'جدة - حي السامر',
-    image: 'https://images.unsplash.com/photo-1584467735815-f778f274e296?q=80&w=900&auto=format&fit=crop',
-    description: 'غرف سطح معزولة عزل تام لحرارة الصيف وصوت الرياح.',
-    highlights: ['عازل بولي يوريثان', 'أبواب ألمنيوم معزولة', 'تركيب سريع']
+    title: 'ملحق سطح وجلسة خارجية بالقرميد',
+    category: 'annex',
+    categoryLabel: 'بناء ملاحق',
+    location: 'جدة - حي الحمدانية',
+    image: '/assets/terrace_annex_majlis_1788967550330.jpg',
+    description: 'مجلس ضيافة وقرميد فاخر للأسطح بعوازل مائية وحرارية تامة.',
+    highlights: ['قرميد إسباني', 'عوازل كاملة', 'مجلس مستقل']
   },
   {
     id: 'proj-6',
-    title: 'مظلات سيارات وسواتر شرائح',
-    category: 'hangars',
-    categoryLabel: 'مظلات وسواتر',
-    location: 'جدة - حي المرجان',
-    image: 'https://images.unsplash.com/photo-1508873696983-2df5293cb32b?q=80&w=900&auto=format&fit=crop',
-    description: 'مظلات قماش PVC كوري وسواتر لحفظ الخصوصية بجودة عالية.',
-    highlights: ['هياكل حديد ثقيلة', 'دهانات ضد الصدأ', 'حماية من الشمس']
+    title: 'غرف ساندوتش بانل معزولة للأسطح',
+    category: 'sandwich',
+    categoryLabel: 'ساندوتش بانل',
+    location: 'جدة - حي السامر',
+    image: '/assets/sandwich_panel_room_1788967613170.jpg',
+    description: 'غرف سطح ومستودعات عازلة عزل تام لحرارة الصيف وأمطار الشتاء.',
+    highlights: ['عازل بولي يوريثان', 'أبواب وشبابيك ألمنيوم', 'تركيب سريع']
   },
   {
     id: 'proj-7',
-    title: 'هنجر مستودع تجاري',
+    title: 'مظلات سيارات وسواتر شرائح حديثة',
     category: 'hangars',
-    categoryLabel: 'هناجر ومستودعات',
-    location: 'جدة - الخمرة الصناعية',
-    image: 'https://images.unsplash.com/photo-1586528116311-ad8dd3c8310d?q=80&w=900&auto=format&fit=crop',
-    description: 'جملونات حديدية متينة وأسقف زنك معزولة لمستودعات التخزين.',
-    highlights: ['مواصفات الدفاع المدني', 'ارتفاع صافي 8 م', 'أرضيات مروحية']
+    categoryLabel: 'مظلات وسواتر',
+    location: 'جدة - حي المرجان',
+    image: '/assets/car_shades_canopy_1788967490066.jpg',
+    description: 'مظلات كابولي للسيارات وسواتر خصوصية شرائح ومجدول.',
+    highlights: ['هياكل حديد مجلفنة', 'دهانات بودرة ضد الصدأ', 'قماش بي في سي ألماني']
   },
   {
     id: 'proj-8',
-    title: 'تجديد حمامات ومطابخ بالكامل',
-    category: 'renovation',
-    categoryLabel: 'تشطيب وترميم',
-    location: 'جدة - حي البوادي',
-    image: 'https://images.unsplash.com/photo-1552321554-5fefe8c9ef14?q=80&w=900&auto=format&fit=crop',
-    description: 'تغيير شبكة السباكة القديمة وتركيب كراسي معلقة وسيراميك فاخر.',
-    highlights: ['سباكة حرارية', 'عزل مائي مجرب', 'خلاطات ألمانية']
+    title: 'سواتر جدارية وخصوصية للمباني',
+    category: 'hangars',
+    categoryLabel: 'مظلات وسواتر',
+    location: 'جدة - حي البساتين',
+    image: '/assets/privacy_fence_screens_1788967579986.jpg',
+    description: 'سواتر بلاستيك خشبية مجدولة لحفظ الخصوصية وحجب الرؤية.',
+    highlights: ['حجب رؤية 100%', 'مقاومة لرياح البحر', 'تثبيت متين']
+  },
+  {
+    id: 'proj-9',
+    title: 'هناجر ومستودعات حديدية عملاقة',
+    category: 'hangars',
+    categoryLabel: 'هناجر ومستودعات',
+    location: 'جدة - الخمرة الصناعية',
+    image: '/assets/hangar_steel_warehouse_1788967423818.jpg',
+    description: 'جملونات حديدية متينة وأسقف ساندوتش بانل بمواصفات الدفاع المدني.',
+    highlights: ['مواصفات الدفاع المدني', 'ارتفاعات كبيرة', 'دهانات إيبوكسي']
   }
 ];
 

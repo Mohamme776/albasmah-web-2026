@@ -192,7 +192,7 @@ export const ServicesSection: React.FC = () => {
                   className="flex-1 flex items-center justify-center gap-2 bg-amber-500 hover:bg-amber-400 text-stone-950 font-bold py-3 px-4 rounded-xl text-sm transition-colors"
                 >
                   <Phone className="w-4 h-4" />
-                  <span>اتصال مباشر: {BUSINESS_INFO.phoneFormatted}</span>
+                  <span>اتصال مباشر: <bdi dir="ltr" className="inline-block font-sans font-black">{BUSINESS_INFO.phoneFormatted}</bdi></span>
                 </a>
                 <a
                   href={`${BUSINESS_INFO.whatsappUrl}&text=${encodeURIComponent(`السلام عليكم مقاول أبو وافي، أود الاستفسار والتنسيق لطلب (${selectedService.title}) بجدة.`)}`}

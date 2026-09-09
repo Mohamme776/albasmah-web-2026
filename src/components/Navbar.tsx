@@ -95,7 +95,7 @@ export const Navbar: React.FC<NavbarProps> = ({ onNavigate }) => {
               title="اتصال هاتفي مباشر"
             >
               <Phone className="w-4 h-4 text-amber-400" />
-              <span dir="ltr">{BUSINESS_INFO.phoneFormatted}</span>
+              <bdi dir="ltr" className="inline-block font-sans font-bold text-stone-100">{BUSINESS_INFO.phoneFormatted}</bdi>
             </a>
             
             <a
@@ -118,7 +118,7 @@ export const Navbar: React.FC<NavbarProps> = ({ onNavigate }) => {
               className="p-2.5 rounded-xl bg-amber-500 text-stone-950 font-bold text-xs flex items-center gap-1"
             >
               <Phone className="w-4 h-4" />
-              <span dir="ltr">0507995065</span>
+              <bdi dir="ltr" className="inline-block font-sans font-bold">0507995065</bdi>
             </a>
             <button
               id="mobile-menu-toggle"
@@ -159,7 +159,7 @@ export const Navbar: React.FC<NavbarProps> = ({ onNavigate }) => {
               className="w-full flex items-center justify-center gap-2 bg-amber-500 hover:bg-amber-400 text-stone-950 py-3 rounded-xl font-bold text-sm"
             >
               <Phone className="w-4 h-4" />
-              <span>اتصال هاتفي مباشر ({BUSINESS_INFO.phoneFormatted})</span>
+              <span>اتصال هاتفي مباشر (<bdi dir="ltr" className="inline-block font-sans font-bold">{BUSINESS_INFO.phoneFormatted}</bdi>)</span>
             </a>
             <a
               href={BUSINESS_INFO.whatsappUrl}

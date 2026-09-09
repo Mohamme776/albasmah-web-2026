@@ -14,7 +14,7 @@ export const Hero: React.FC<HeroProps> = ({ onExploreFinishing, onExploreService
       <div 
         className="absolute inset-0 opacity-20 bg-cover bg-center mix-blend-luminosity scale-105 transition-transform duration-1000"
         style={{
-          backgroundImage: `url('https://images.unsplash.com/photo-1600585154340-be6161a56a0c?q=80&w=1920&auto=format&fit=crop')`
+          backgroundImage: `url('/assets/hero_finishing_1788967342617.jpg')`
         }}
       />
       <div className="absolute inset-0 bg-gradient-to-b from-stone-950/80 via-stone-950/95 to-stone-950" />
@@ -69,7 +69,7 @@ export const Hero: React.FC<HeroProps> = ({ onExploreFinishing, onExploreService
                 className="flex items-center justify-center gap-2.5 bg-amber-500 hover:bg-amber-400 text-stone-950 font-black px-6 py-3.5 rounded-xl shadow-lg shadow-amber-500/20 text-sm transition-all"
               >
                 <Phone className="w-4 h-4 text-stone-950 stroke-[2.5]" />
-                <span>اتصال مباشر: {BUSINESS_INFO.phoneFormatted}</span>
+                <span>اتصال مباشر: <bdi dir="ltr" className="inline-block font-sans font-black">{BUSINESS_INFO.phoneFormatted}</bdi></span>
               </a>
 
               <a
@@ -135,9 +135,8 @@ export const Hero: React.FC<HeroProps> = ({ onExploreFinishing, onExploreService
                 <a 
                   href={`tel:${BUSINESS_INFO.phone}`} 
                   className="text-sm font-black text-amber-400 hover:text-amber-300"
-                  dir="ltr"
                 >
-                  {BUSINESS_INFO.phoneFormatted}
+                  <bdi dir="ltr" className="inline-block font-sans">{BUSINESS_INFO.phoneFormatted}</bdi>
                 </a>
                 <button
                   onClick={onExploreServices}
